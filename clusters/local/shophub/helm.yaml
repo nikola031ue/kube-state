@@ -1,0 +1,14 @@
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: shophub
+  namespace: shophub
+spec:
+  chart:
+    spec:
+      chart: shophub
+      sourceRef:
+        kind: HelmRepository
+        name: shophub-charts
+      version: ">=0.1.0"
+  interval: 1h
