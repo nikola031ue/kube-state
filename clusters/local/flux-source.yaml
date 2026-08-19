@@ -7,4 +7,4 @@ spec:
   interval: 1m
   url: https://github.com/nikola031ue/kube-state
   ref:
-    branch: feat/shop-replica
+    branch: main
