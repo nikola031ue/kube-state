@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: shop-operator
+      chart: ./shop-operator
       sourceRef:
         kind: HelmRepository
         name: shophub-charts
