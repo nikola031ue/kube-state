@@ -2,15 +2,14 @@ apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: shophub-discord
-  namespace: shophub
+  namespace: flux-system
 spec:
   chart:
     spec:
-      chart: shophub
+      chart: ./charts/shophub
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: shophub-charts
-      version: ">=0.1.0"
   interval: 1h
   values:
     discord:

@@ -1,0 +1,4 @@
+image:
+  repository: nikola031ue/shop-operator
+  tag: latest
+  pullPolicy: IfNotPresent
