@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: ./shophub
+      chart: ./charts/shophub
       sourceRef:
         kind: GitRepository
         name: shophub-charts
