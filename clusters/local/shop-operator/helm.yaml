@@ -8,7 +8,7 @@ spec:
     spec:
       chart: ./shop-operator
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: shophub-charts
       version: ">=0.1.0"
   interval: 1h
